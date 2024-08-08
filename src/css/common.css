@@ -37,3 +37,7 @@ body {
     padding-right: 50px;
   }
 }
+
+button {
+  border: none;
+}
