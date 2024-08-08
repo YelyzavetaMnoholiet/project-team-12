@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
   row-gap: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .advantages-hidden {
   position: absolute;
@@ -65,12 +67,12 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 786px;
-  }
   .advantages {
     row-gap: 32px;
+    padding-top: 75px;
+    padding-bottom: 75px;
   }
+
   .adv-list-order {
     flex-direction: row;
     flex-wrap: wrap;
@@ -100,9 +102,6 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
   .advantages {
     flex-direction: row;
     column-gap: 32px;
