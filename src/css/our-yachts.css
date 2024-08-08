@@ -21,7 +21,7 @@
 }
 
 .our-yachts-cards {
-  min-width: 335px;
+  max-width: 335px;
   background-color: #fff;
   border-radius: 24px;
   padding-top: 16px;
