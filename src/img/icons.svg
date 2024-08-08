@@ -15,5 +15,8 @@
     <symbol id="icon-menu" viewBox="0 0 32 32">
       <path stroke-linejoin="round" stroke-linecap="round" stroke-width="3.333" d="M2 20.667h28M2 11.333h28"/>
     </symbol>
+    <!-- Іконка меню робится в цсс через строук 
+    ( fill: transparent; 
+      stroke: #fff; ) -->
   </defs>
 </svg>
