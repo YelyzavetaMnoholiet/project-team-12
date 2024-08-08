@@ -1,5 +1,56 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fbfbfb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.main-page {
+  flex-grow: 1;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-family: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+}
+
+input {
+  font-family: inherit;
+}
+
 .container {
+  max-width: 375px;
   padding: 0 10px;
+  margin: 0 auto;
+  background-color: #0e1823;
 }
 
 .footer-container {
@@ -30,11 +81,6 @@
 
 .btn-link {
   display: block;
-  width: inherit;
-  height: inherit;
-}
-
-.foot-btn {
   border-radius: 8px;
   padding: 15px 12px;
   min-width: 66px;
@@ -49,8 +95,8 @@
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.foot-btn:hover,
-.foot-btn:focus {
+.btn-link:hover,
+.btn-link:focus {
   background-color: #fbfbfb;
   color: #1b414b;
 }
@@ -125,7 +171,7 @@
     max-width: 320px;
   }
 
-  .foot-btn {
+  .btn-link {
     padding: 9px 6px;
     min-width: 52px;
   }
@@ -133,7 +179,7 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    min-width: 768px;
+    max-width: 768px;
     padding: 0 16px;
   }
 
