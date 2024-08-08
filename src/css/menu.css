@@ -1,0 +1,116 @@
+.mob-menu {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    max-width: 320px;
+    min-width: 375px;
+    height: 100%;
+    background-color: #0e1823;
+    box-sizing: border-box;
+    padding-top: 16px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.mob-header { 
+    width: 335px;
+    height: 42px;
+    background: #fbfbfb;
+    border: 1px solid #fbfbfb;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 20px;
+    margin-bottom: 201px;
+}
+
+.mob-logo {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.03em;
+    color: #1b414b;
+}
+
+.mob-btn-close {
+    border: none;
+    fill: #055545;
+    background: transparent;
+}
+
+.btn-close-icon {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mob-nav-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mob-navigation {
+    margin-bottom: 361px;
+}
+
+.mob-nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 91px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.mob-nav-list:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+.mob-nav-about {
+    background: #1b414b;
+}
+
+.mob-nav-yachts {
+    background: rgba(27, 65, 75, 0.5);
+}
+
+.mob-nav-reviews {
+    background: rgba(27, 65, 75, 0.5);
+}
+
+.mob-nav-link {
+    text-align: center;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 1.3;
+    color: #fbfbfb;
+}
+
+.mobil-soc-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.mobil-soc-link-icon { 
+    fill: #fbfbfb;
+}
