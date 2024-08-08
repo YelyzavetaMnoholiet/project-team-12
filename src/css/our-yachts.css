@@ -194,7 +194,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     display: block;
-    width: 134px;
+    width: 160px;
   }
 
   .yacht-name {
@@ -242,5 +242,9 @@
     width: 313px;
     max-width: 313px;
     height: 1px;
+  }
+
+  .ellipsis {
+    width: 180px;
   }
 }
