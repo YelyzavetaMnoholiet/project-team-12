@@ -20,13 +20,16 @@
   align-items: center;
 }
 
+.our-yachts-cards-list {
+  margin-bottom: 40px;
+}
+
 .our-yachts-cards {
   max-width: 335px;
   background-color: #fff;
   border-radius: 24px;
   padding-top: 16px;
   padding-bottom: 32px;
-  margin-bottom: 40px;
 }
 
 .our-yachts-image-container {
@@ -176,11 +179,11 @@
     display: flex;
     justify-content: center;
     gap: 32px;
+    margin-bottom: 50px;
   }
 
   .our-yachts-cards {
     min-width: 336px;
-    margin-bottom: 50px;
     width: calc((100% - 32px) / 2);
   }
 
