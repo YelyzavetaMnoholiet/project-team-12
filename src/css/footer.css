@@ -116,7 +116,7 @@
 }
 
 @media screen and (max-width: 374px) {
-  .container {
+  .foot-cont {
     max-width: 320px;
   }
 
@@ -127,7 +127,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  .foot-cont {
     padding: 0 16px;
   }
 
@@ -168,7 +168,7 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .container {
+  .foot-cont {
     padding: 0 25px;
   }
 
