@@ -1,5 +1,5 @@
 .foot-cont {
-  padding: 0 10px;
+  padding: 40px 10px 0;
 }
 
 .footer-container {
@@ -128,7 +128,7 @@
 
 @media screen and (min-width: 768px) {
   .foot-cont {
-    padding: 0 16px;
+    padding: 75px 16px 0;
   }
 
   .foot-social-cont {
@@ -169,7 +169,7 @@
 }
 @media screen and (min-width: 1280px) {
   .foot-cont {
-    padding: 0 25px;
+    padding: 75px 25px 0;
   }
 
   .footer-container {
