@@ -3,8 +3,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    max-width: 320px;
-    min-width: 375px;
+    width: 100%;
     height: 100%;
     background-color: #0e1823;
     box-sizing: border-box;
@@ -28,16 +27,15 @@
 }
 
 .mob-header { 
-    width: 335px;
+    width: 100%;
     height: 42px;
     background: #fbfbfb;
     border: 1px solid #fbfbfb;
     border-radius: 8px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 7px 20px;
-    margin-bottom: 201px;
+    margin-bottom: 50px;
 }
 
 .mob-logo {
@@ -51,6 +49,8 @@
     border: none;
     fill: #055545;
     background: transparent;
+    margin-left: auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-close-icon {
@@ -68,7 +68,7 @@
 }
 
 .mob-navigation {
-    margin-bottom: 361px;
+    margin-bottom: 50px;
 }
 
 .mob-nav-list{
@@ -111,6 +111,11 @@
     gap: 8px;
 }
 
+.mobil-soc-link{
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .mobil-soc-link-icon { 
     fill: #fbfbfb;
 }
