@@ -1,8 +1,5 @@
 .container {
-  max-width: 375px;
   padding: 0 10px;
-  margin: 0 auto;
-  background-color: #0e1823;
 }
 
 .footer-container {
