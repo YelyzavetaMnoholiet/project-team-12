@@ -2,14 +2,15 @@
     background-color: #fbfbfb;
     border-radius:  40px ;
     width: 335px;
-    
+     
     padding-left:0;
     padding-right:0;
+     
 }
 
 .yjf-container {
     min-width: 320px;
-   /* max-width: 375px;*/
+   max-width: 375px;
       
      
     margin-bottom:50px;
@@ -35,6 +36,7 @@
     height: 176px;
     margin-left: 20px;
     margin-bottom: 40px;
+    
 }
  
 .yjf-text {
@@ -64,11 +66,11 @@
     }
  
 .yacht-img {
-    border-radius: 24px;
+     
     width: 335px;
     height: 395px;
-    object-fit: cover;
-     
+    object-fit: contain;
+    border-radius: 24px;
 }
 
 /*-------tablet-------*/
@@ -179,13 +181,5 @@
 
 }
   
-
-
-
-
-
-
-
-
 
 }
