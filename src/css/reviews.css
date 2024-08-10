@@ -49,7 +49,7 @@
   border-radius: 72px;
 }
 .card-desc {
-  width: 303px;
+  max-width: 250px;
 }
 .reviews-subtitle {
   font-weight: 500;
@@ -78,6 +78,9 @@
   }
   .reviews-description {
     max-width: 335px;
+  }
+  .card-desc {
+    max-width: 303px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -133,7 +136,7 @@
     padding: 32px 28px;
   }
   .card-desc {
-    width: 304px;
+    max-width: 304px;
   }
   .card-3 .card-desc {
     width: 293px;
