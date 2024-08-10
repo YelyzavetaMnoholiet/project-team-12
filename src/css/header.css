@@ -1,1 +1,120 @@
 
+.page-header{
+    border: 1px solid #fbfbfb;
+border-radius: 8px;
+background: #fbfbfb;
+width: 335px;
+height: 42px;
+top: 32px;
+z-index: 99999999;
+position: absolute;
+  content: '';
+  left: 50%;
+  transform: translateX(-50%);
+    }
+    .page-header-container{
+height: 42px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .page-nav{
+        display: flex;
+        align-items: center;
+    }
+        .open-header {
+            display: flex;
+            margin: 0;
+            padding: 7px;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        
+          }
+
+    .menu{
+        display: none;
+    }
+   
+    .page-logo{
+        text-decoration: none;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 15px;
+        display: block;
+        font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+letter-spacing: -0.03em;
+color: #1b414b;
+    }
+    .icons-list{
+        display: none;
+    }
+@media  screen and (min-width: 768px) {
+
+    .page-header{
+        width: 704px;
+height: 48px;
+    }
+.page-logo{
+padding-left: 20px;
+font-size: 20px;
+padding-right: 113px;
+}
+.menu{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    padding-top: 4px;
+    padding-right: 96px;
+}
+.menu-item{
+    border-radius: 8px;
+width: 91px;
+height: 40px;
+background: rgba(27, 65, 75, 0.5)
+}
+.menu-item:hover,
+.menu-item:focus{
+    background: #1b414b;
+}
+.open-header{
+    display: none;
+}
+.menu-link{
+  
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 9px;
+line-height: 130%;
+text-transform: uppercase;
+text-align: center;
+color: #fbfbfb;
+display: block;
+padding: 15px 24px;
+}
+.icons-list{
+        display: flex;
+        gap: 9px;
+        justify-content: center;
+        padding-top: 12px;
+        padding-right: 28px;
+}
+    
+}
+@media screen and (min-width:1280px) {
+    .page-header{
+        width: 1080px;
+height: 48px;
+    }
+    .page-logo{
+        padding-left: 30px;
+        padding-right: 296px;
+    }
+.menu{
+    padding-right: 281px;
+}
+.icons-list{
+    padding-right: 30px;
+}
+}
