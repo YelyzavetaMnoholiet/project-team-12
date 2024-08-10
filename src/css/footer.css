@@ -1,7 +1,3 @@
-.foot-cont {
-  padding: 40px 10px 0;
-}
-
 .footer-container {
   padding: 40px 30px 20px;
   background-color: #1b414b;
@@ -116,7 +112,7 @@
 }
 
 @media screen and (max-width: 374px) {
-  .foot-cont {
+  .container {
     max-width: 320px;
   }
 
@@ -127,16 +123,17 @@
 }
 
 @media screen and (min-width: 768px) {
-  .foot-cont {
-    padding: 75px 16px 0;
-  }
-
-  .foot-social-cont {
-    margin-bottom: 96px;
+  .container {
+    max-width: 768px;
+    padding: 0 16px;
   }
 
   .footer-container {
     padding: 50px 48px 20px;
+  }
+
+  .foot-social-cont {
+    margin-bottom: 96px;
   }
 
   .foot-logo {
@@ -168,8 +165,9 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .foot-cont {
-    padding: 75px 25px 0;
+  .container {
+    max-width: 1280px;
+    padding: 0 25px;
   }
 
   .footer-container {
