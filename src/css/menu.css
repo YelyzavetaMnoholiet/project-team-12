@@ -25,6 +25,7 @@
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+
 }
 
 .mob-header { 
@@ -80,6 +81,7 @@
     height: 40px;
     border-radius: 8px;
     background: rgba(27, 65, 75, 0.5);
+    cursor: pointer;
 }
 
 .mob-nav-list:focus,
