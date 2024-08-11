@@ -6,7 +6,7 @@ background: #fbfbfb;
 width: 335px;
 height: 42px;
 top: 32px;
-z-index: 99999999;
+z-index: 1;
 position: absolute;
   content: '';
   left: 50%;
