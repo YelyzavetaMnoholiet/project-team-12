@@ -1,0 +1,146 @@
+.reviews {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.reviews-title {
+  max-width: 280px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+
+  margin-bottom: 25px;
+}
+.reviews-description {
+  max-width: 280px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: hsl(0, 0%, 98%);
+
+  opacity: 0.4;
+  margin-bottom: 40px;
+}
+
+.reviews-item {
+  max-width: 335px;
+  border-radius: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 32px 8px;
+  background-color: #fbfbfb;
+}
+
+.reviews-image {
+  border-radius: 72px;
+}
+.card-desc {
+  max-width: 250px;
+}
+.reviews-subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #040306;
+  margin-bottom: 8px;
+}
+.reviews-item-text {
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin: 0 auto;
+  color: rgba(4, 3, 6, 0.4);
+}
+.card-2,
+.card-3 {
+  display: none;
+}
+@media screen and (min-width: 375px) {
+  .reviews-title {
+    max-width: 280px;
+  }
+  .reviews-description {
+    max-width: 335px;
+  }
+  .card-desc {
+    max-width: 303px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .reviews {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+  .reviews-title {
+    min-width: 704px;
+    font-size: 48px;
+  }
+  .reviews-description {
+    min-width: 571px;
+    font-size: 14px;
+    line-height: 1.28;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 75px;
+  }
+  .card-2 {
+    display: flex;
+  }
+  .reviews-list {
+    display: flex;
+
+    gap: 32px;
+  }
+  .reviews-item {
+    width: 336px;
+    padding: 32px 8px;
+  }
+
+  .card-2 .card-desc {
+    width: 293px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .reviews-title {
+    min-width: 800px;
+
+    font-size: 48px;
+  }
+  .reviews-description {
+    margin-bottom: 75px;
+  }
+  .card-3 {
+    display: flex;
+  }
+  .reviews-list {
+    gap: 26px;
+  }
+  .reviews-item {
+    min-width: 376px;
+    width: calc((100% - 52px) / 3);
+
+    padding: 32px 28px;
+  }
+  .card-desc {
+    max-width: 304px;
+  }
+  .card-3 .card-desc {
+    width: 293px;
+  }
+}
