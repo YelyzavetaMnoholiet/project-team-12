@@ -1,1 +1,20 @@
-
+<section id="yacht-rental" class="container rent-section">
+    <div class="form-contaiiner">
+        <h2 class="tittle-rent">Rent a yacht now</h2>
+            <form class="form-rent">
+                <input required class="input-rent" type="text" placeholder="Full Name">
+                <input required class="input-rent" type="email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                    placeholder="Email">
+                <input required class="input-rent" type="tel" pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+                    placeholder="Phone number">
+                <textarea class="textarea-rent" name="" id="" placeholder="Comment"></textarea>
+                <button class="btn-rent" type="submit">Send</button>
+            </form>
+    </div>
+    <picture class="picture-rent">
+        <source srcset="/img/Rent-a-yacht/yrent-mob.jpg 1x, /img/Rent-a-yacht/yrent-mob-2x.jpg 2x" media="(max-width:767px)">
+        <source srcset="/img/Rent-a-yacht/yrent-tab.jpg 1x, /img/Rent-a-yacht/yrent-tab-2x.jpg 2x" media="(min-width:768px)">
+        <source srcset="../img/Rent-a-yacht/yrent.jpg 1x, ../img/Rent-a-yacht/yrent-2x.jpg 2x" media="(min-width:1280px)">
+        <img class="img-yacht-rent" src="/img/Rent-a-yacht/yrent.jpg" alt="yacht">
+    </picture>
+</section>
