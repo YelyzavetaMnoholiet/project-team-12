@@ -50,6 +50,7 @@ color: #1b414b;
     .icons-list{
         display: none;
     }
+   
 @media  screen and (min-width: 768px) {
 
     .page-header{
@@ -100,7 +101,12 @@ padding: 15px 24px;
         padding-top: 12px;
         padding-right: 28px;
 }
-    
+    .icon{
+        fill: #1b414b;
+    }
+    .icon:hover{
+        fill: #062730;
+    }
 }
 @media screen and (min-width:1280px) {
     .page-header{
