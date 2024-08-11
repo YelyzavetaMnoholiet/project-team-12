@@ -22,10 +22,11 @@
     />
     
     <script type="module" crossorigin src="/project-team-12/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-team-12/assets/index-9d94a58b.css">
+    <link rel="stylesheet" href="/project-team-12/assets/index-df939716.css">
   </head>
   <body>
-    <header class=" page-header">
+    
+<header class=" page-header">
     <div class=" page-header-container">
     <nav class="page-nav">
 <a id="logo" class="page-logo" href="./index.html">yachtjet</a>
@@ -57,6 +58,8 @@
         </button>
     </div>
 </header>
+
+
 
     <main>
       <section class="hero">
@@ -299,8 +302,26 @@
     <img class="adv-img" src="/project-team-12/assets/interier-17870178.jpg"
         srcset="/project-team-12/assets/interier-17870178.jpg 1x, /project-team-12/assets/interier@2x-c176f91d.jpg 2x" alt="interier" />
 </section>
-      
-
+      <section id="yacht-rental" class="container rent-section">
+    <div class="form-contaiiner">
+        <h2 class="tittle-rent">Rent a yacht now</h2>
+            <form class="form-rent">
+                <input required class="input-rent" type="text" placeholder="Full Name">
+                <input required class="input-rent" type="email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                    placeholder="Email">
+                <input required class="input-rent" type="tel" pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+                    placeholder="Phone number">
+                <textarea class="textarea-rent" name="" id="" placeholder="Comment"></textarea>
+                <button class="btn-rent" type="submit">Send</button>
+            </form>
+    </div>
+    <picture class="picture-rent">
+        <source srcset="/img/Rent-a-yacht/yrent-mob.jpg 1x, /img/Rent-a-yacht/yrent-mob-2x.jpg 2x" media="(max-width:767px)">
+        <source srcset="/img/Rent-a-yacht/yrent-tab.jpg 1x, /img/Rent-a-yacht/yrent-tab-2x.jpg 2x" media="(min-width:768px)">
+        <source srcset="../img/Rent-a-yacht/yrent.jpg 1x, ../img/Rent-a-yacht/yrent-2x.jpg 2x" media="(min-width:1280px)">
+        <img class="img-yacht-rent" src="/img/Rent-a-yacht/yrent.jpg" alt="yacht">
+    </picture>
+</section>
       <section id="reviews" class="container reviews">
   <h2 class="reviews-title">
     YachtJet take pride in providing the best possible service and experience to
