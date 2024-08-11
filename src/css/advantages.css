@@ -46,7 +46,6 @@
   width: 100%;
   height: 2px;
   background-color: rgba(251, 251, 251, 0.1);
-  color: #fbfbfb;
 }
 .adv-list-text {
   font-weight: 400;
@@ -117,5 +116,6 @@
   .adv-img {
     width: 432px;
     height: 424px;
+    object-position: 33%;
   }
 }

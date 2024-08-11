@@ -1,15 +1,19 @@
 
 .hero {
 padding-top: 260px;
-padding-bottom: 302px;
+ padding-bottom: 302px; 
+/* height: 812px; */
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 background-image: linear-gradient(360deg, rgba(17, 19, 31, 0.98) 15.05%, rgba(17, 19, 31, 0.39) 75.3%, rgba(17, 19, 31, 0) 98.27%), url(/img/hero-photos/image-yacht-mob.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 width: 100%;
+margin: 0 auto;
 
 }
+
+
 
 @media screen and (-webkit-min-device-pixel-ratio:2),
 (min-resotulion:2dppx),
@@ -67,18 +71,28 @@ color: #1b414b;
 }
 
  @media screen and (min-width:768px) {
-.container {
-min-width: 768px; 
-padding-left: 32px;
-padding-right: 32px;
-margin: 0 auto;
-width: 100%;
- }
+
+
+.hero-container {
+max-width: 768px;
+
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
 
  .hero {
- 
+
 padding-top: 280px;
 padding-bottom: 282px;
+/* height: 926px; */
 box-shadow: none;
 background-image:  linear-gradient(360deg, rgba(17, 19, 31, 0.98) 15.05%, rgba(17, 19, 31, 0.39) 75.3%, rgba(17, 19, 31, 0) 98.27%), url(/img/hero-photos/image-yacht-tab.jpg);
  }
@@ -94,18 +108,12 @@ background-image: linear-gradient(360deg, rgba(17, 19, 31, 0.98) 15.05%, rgba(17
 
 }
 
-.hero-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%; 
-    }
+
 
 
 .hero-title {
- max-width: 704px;
+    
+  max-width: 704px; 
  font-size: 76px;  
  
 }
@@ -136,10 +144,11 @@ background-color: #fbfbfb;
 
 
  @media screen and (min-width: 1280px) {
-.container {
-min-width: 1280px;
-padding-left: 140px;
-padding-right: 140px;
+
+
+.hero-container {
+max-width: 1280px;
+
 
     }
 
@@ -148,6 +157,8 @@ padding-top: 235px;
 padding-bottom: 215px; 
 background-image: linear-gradient(360deg, rgba(17, 19, 31, 0.98) 15.05%, rgba(17, 19, 31, 0.39) 75.3%, rgba(17, 19, 31, 0) 98.27%), url(/img/hero-photos/image-yacht.jpg);
 max-width: 1280px;
+
+
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:2),
@@ -160,7 +171,7 @@ background-image: linear-gradient(360deg, rgba(17, 19, 31, 0.98) 15.05%, rgba(17
 
 .hero-title {
 max-width: 1001px;
-font-size: 75px;
+font-size: 80px;
 
 }
 

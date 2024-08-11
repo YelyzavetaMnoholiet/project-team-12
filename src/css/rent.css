@@ -1,0 +1,167 @@
+.rent-section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+@media screen and (min-width:768px) {
+    .rent-section{
+        padding-top: 75px;
+        padding-bottom: 75px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .rent-section{
+        flex-direction: row-reverse;
+        gap: 50px;
+        align-items: start;
+    }
+}
+
+.form-contaiiner{
+    margin-bottom: 80px;
+}
+
+@media screen and (min-width:768px) {
+    .form-contaiiner {
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .form-contaiiner {
+        margin-bottom: 0;
+    }
+}
+
+.tittle-rent{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width:768px) {
+    .tittle-rent{
+        font-size: 48px;
+    }
+}
+
+.form-rent{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.input-rent{
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 12px;
+    padding-left: 14px;
+    width: 100%;
+    height: 42px;
+    background-color: transparent;
+    padding: 14px 18px;
+    color: #fbfbfb;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    margin-bottom: 18px;
+}
+
+@media screen and (min-width:768px) {
+    .input-rent{
+        width: 472px;
+        height: 54px;
+        padding: 18px;
+    }
+}
+
+.input-rent:active{
+    color: #fff;
+    border: 1px solid rgba(251, 251, 251, 0.5);
+}
+
+.input-rent:focus, .input-rent:hover {
+    color: #fbfbfb;
+    border: 1px solid rgba(251, 251, 251, 0.5);
+}
+
+.textarea-rent{
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 12px;
+    height: 108px;
+    padding: 14px 18px;
+    color: #fbfbfb;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    resize: none;
+    margin-bottom: 50px;
+}
+
+.textarea-rent:active {
+    color: #fff;
+    border: 1px solid rgba(251, 251, 251, 0.5);
+}
+
+.textarea-rent:focus,
+.textarea-rent:hover {
+    color: #fbfbfb;
+    border: 1px solid rgba(251, 251, 251, 0.5);
+}
+
+@media screen and (min-width:768px) {
+    .textarea-rent{
+        width: 472px;
+        height: 116px;
+        padding: 18px;
+    }
+}
+
+.btn-rent{
+    width: 122px;
+    height: 46px;
+    padding: 14px 44px;
+    border: none;
+    border-radius: 15px;
+    background-color: #1b414b;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    transition-duration: 300ms;
+}
+
+@media screen and (min-width:768px) {
+    .btn-rent{
+        border-radius: 15px;
+        padding: 18px 75px;
+        width: 194px;
+        height: 56px;
+    }
+}
+
+.btn-rent:hover, 
+.btn-rent:focus {
+    background-color: #fbfbfb;
+    color: #1b414b;
+}
+
+.img-yacht-rent{
+    border-radius: 24px;
+}
+
+@media screen and (min-width:1280px) {
+    .img-yacht-rent{
+        height: 535px;
+    }
+}
