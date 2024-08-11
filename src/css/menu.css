@@ -1,6 +1,6 @@
 .mob-menu {
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     top: 0;
     left: 0;
     width: 100%;
@@ -25,6 +25,7 @@
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+
 }
 
 .mob-header { 
@@ -79,22 +80,17 @@
     width: 91px;
     height: 40px;
     border-radius: 8px;
+    background: rgba(27, 65, 75, 0.5);
+    cursor: pointer;
+}
+
+.mob-nav-list:focus,
+.mob-nav-list:hover {
+    background: #1b414b
 }
 
 .mob-nav-list:not(:last-child) {
     margin-bottom: 4px;
-}
-
-.mob-nav-about {
-    background: #1b414b;
-}
-
-.mob-nav-yachts {
-    background: rgba(27, 65, 75, 0.5);
-}
-
-.mob-nav-reviews {
-    background: rgba(27, 65, 75, 0.5);
 }
 
 .mob-nav-link {
@@ -117,6 +113,13 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .mobil-soc-link-icon { 
     fill: #fbfbfb;
+}
+
+.mobil-soc-list:hover,
+.mobil-soc-list:focus {
+    fill: #FBFBFB;
+    fill-opacity: 0.8;
 }
