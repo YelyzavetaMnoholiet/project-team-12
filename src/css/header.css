@@ -57,10 +57,9 @@ color: #1b414b;
     .page-header-container{
        max-width: 704px;
 height: 48px;
+ padding: 4px 28px;
     }
-    .page-header-container{
-        padding: 4px 28px;
-    }
+ 
 .page-logo{
 font-size: 20px;
 margin-right: 113px;
@@ -121,10 +120,9 @@ padding: 15px 24px;
     .page-header-container{
         max-width: 1080px;
 height: 48px;
+    padding: 4px 30px;
     }
-    .page-header-container{
-        padding: 4px 30px;
-    }
+   
     .page-logo{
     
         margin-right: 296px;
