@@ -54,7 +54,7 @@ color: #1b414b;
    
 @media  screen and (min-width: 768px) {
 
-    .page-header{
+    .page-header-container{
         width: 704px;
 height: 48px;
     }
@@ -118,7 +118,7 @@ padding: 15px 24px;
     }
 }
 @media screen and (min-width:1280px) {
-    .page-header{
+    .page-header-container{
         width: 1080px;
 height: 48px;
     }
