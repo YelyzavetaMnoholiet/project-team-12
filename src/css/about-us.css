@@ -1,8 +1,9 @@
 .yacht-jet-fleet-container {
     background-color: #fbfbfb;
     border-radius:  40px ;
-      width: 320px;
-     
+        
+    min-width: 320px;
+    max-width: 375px;
     padding-left:0;
     padding-right:0;
     margin-top:-50px;
@@ -10,7 +11,7 @@
 }
 
 .yjf-container {
-    min-width: 320px;
+     min-width: 320px;
    max-width: 375px;
       
      
