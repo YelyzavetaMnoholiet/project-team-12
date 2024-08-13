@@ -1,18 +1,18 @@
 .yacht-jet-fleet-container {
-    background-color: #fbfbfb;
-    border-radius:  40px ;
+    
         
     min-width: 320px;
     max-width: 375px;
-    padding-left:0;
-    padding-right:0;
+     
     margin-top:-50px;
     margin-bottom: 40px;
 }
 
 .yjf-container {
-     min-width: 320px;
-   max-width: 375px;
+    background-color: #fbfbfb;
+    border-radius:  40px ;
+    min-width: 320px;
+    max-width: 375px;
       
      
     margin-bottom:50px;
@@ -140,26 +140,35 @@
 
 }
 .yjf-container {
-     width: 1180px;
-     display: flex;
+     min-width: 1180px;
+     
      padding-left: 0;
      margin-left: 0;
      margin-right: 0;
 }
+.cont-content {
+
+    display:flex;
+    gap:189px;
+}
 .yjf-title {
     min-width: 537px;
     padding-top: 50px;
+    padding-left:50px;
+    padding-right: 0px;
     display: flex;
     margin-bottom: 0;
-    
+    position:absolute;
+     
 }
 .yjf-list-container {
+    width: 354px;
     padding-top: 50px;
-     margin-left: 189px;
+     margin-left: 776px;
      margin-right: 50px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 100px;
+    margin-bottom: 166px;
 
 }
 .yjf-text {
@@ -178,7 +187,7 @@
 }
  
 .yacht-img {
-     
+    display: flex;
     border-radius: 24px;
     object-fit: cover;
    
