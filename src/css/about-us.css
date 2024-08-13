@@ -1,0 +1,189 @@
+.yacht-jet-fleet-container {
+    background-color: #fbfbfb;
+    border-radius:  40px ;
+        
+    min-width: 320px;
+    max-width: 375px;
+    padding-left:0;
+    padding-right:0;
+    margin-top:-50px;
+    margin-bottom: 40px;
+}
+
+.yjf-container {
+     min-width: 320px;
+   max-width: 375px;
+      
+     
+    margin-bottom:50px;
+    box-sizing: border-box;
+      
+}
+
+.yjf-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    /* line-height: 28px; */
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    padding-top: 40px;
+    margin-bottom:40px ;
+    padding-left:20px;
+    padding-right: 20px;
+    width:295px;
+}
+
+.yjf-list-container {
+    width: 295px;
+    height: 176px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    
+}
+ 
+.yjf-text {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+
+    /* line-height: 18px; */
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    margin-bottom: 20px;
+}
+
+.yjf-sub-text {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+
+    /* line-height: 14px; */
+    line-height: 1.16667;
+    letter-spacing: -0.02em;
+    color: #040306;
+
+    opacity:0.4;
+     
+    }
+ 
+.yacht-img {
+     
+    width: 100%;
+     
+    object-fit: contain;
+    border-radius: 24px;
+}
+
+/*-------tablet-------*/
+@media screen and (min-width: 768px) {
+ 
+
+ 
+.yacht-jet-fleet-container {
+    padding-left: 0px;
+        padding-right: 0px;
+    min-width: 704px;
+    margin-bottom: 75px;
+}
+.yjf-container {
+    min-width: 704px;
+    
+   
+     
+}
+.yjf-title {
+    font-size: 48px;
+    padding-top: 50px;
+    width: 536px;
+    padding-left: 32px;
+     
+    
+
+}
+.yjf-list-container {
+    width: 389px;
+    height: 187px;
+    margin-left: 32px;
+}
+.yjf-text {
+     
+    font-size: 23px;
+}
+.yjf-sub-text {
+     
+    font-size: 13px;
+    line-height: 1.15;
+     
+}
+.yacht-img {
+    border-radius: 24px;
+    object-fit: cover;
+     
+    
+     
+}
+ 
+}
+
+@media screen and (min-width: 1280px) {
+
+
+ 
+.yacht-jet-fleet-container {
+    padding-left: 0;
+    padding-right: 0;
+    min-width: 1180px;
+    margin-top: -36px;
+
+}
+.yjf-container {
+     width: 1180px;
+     display: flex;
+     padding-left: 0;
+     margin-left: 0;
+     margin-right: 0;
+}
+.yjf-title {
+    min-width: 537px;
+    padding-top: 50px;
+    display: flex;
+    margin-bottom: 0;
+    
+}
+.yjf-list-container {
+    padding-top: 50px;
+     margin-left: 189px;
+     margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+
+}
+.yjf-text {
+    width: 354px;
+     
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.yjf-sub-text {
+    width: 354px;
+    font-size: 13px;
+    line-height: 1.15;
+    padding-left: 0px;
+    margin-bottom: 0;
+}
+ 
+.yacht-img {
+     
+    border-radius: 24px;
+    object-fit: cover;
+   
+
+}
+  
+
+}
