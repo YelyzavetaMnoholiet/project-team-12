@@ -1,8 +1,6 @@
 
 .page-header{
-    border: 1px solid #fbfbfb;
-border-radius: 8px;
-background: #fbfbfb;
+   
 width: 100%;
 height: 42px;
 top: 32px;
@@ -13,7 +11,10 @@ position: absolute;
   transform: translateX(-50%);
     }
     .page-header-container{
-
+ border: 1px solid #fbfbfb;
+border-radius: 8px;
+background: #fbfbfb;
+max-width: 370px;
         display: flex;
         justify-content: space-between;
         padding: 7px 20px;
