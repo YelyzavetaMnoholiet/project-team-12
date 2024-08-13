@@ -1,80 +1,79 @@
-
 .hero {
-padding-top: 260px;
- padding-bottom: 302px; 
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-background-image: linear-gradient(360deg, rgba(14, 24, 35, 0.98) 15.05%, rgba(17, 19, 31, 0.39) 75.3%, rgba(17, 19, 31, 0) 98.27%), url(/img/hero-photos/image-yacht-mob.jpg);
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-width: 100%;
-margin: 0 auto;
-
+  padding-top: 260px;
+  padding-bottom: 302px;
+  background-image: linear-gradient(
+      360deg,
+      rgba(14, 24, 35, 0.98) 15.05%,
+      rgba(17, 19, 31, 0.39) 75.3%,
+      rgba(17, 19, 31, 0) 98.27%
+    ),
+    url(/img/hero-photos/image-yacht-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  margin: 0 auto;
+  min-width: 320px;
 }
 
-
-
-@media screen and (-webkit-min-device-pixel-ratio:2),
-(min-resotulion:2dppx),
-(min-resotulion:2dpi) {
-.hero {
-
-background-image: linear-gradient(360deg, rgba(14, 24, 35, 0.98) 15.05%, rgba(17, 19, 31, 0.39) 75.3%, rgba(17, 19, 31, 0) 98.27%), url(/img/hero-photos/image-yacht-mob-2x.jpg);
-
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resotulion: 2dppx),
+  (min-resotulion: 2dpi) {
+  .hero {
+    background-image: linear-gradient(
+        360deg,
+        rgba(14, 24, 35, 0.98) 15.05%,
+        rgba(17, 19, 31, 0.39) 75.3%,
+        rgba(17, 19, 31, 0) 98.27%
+      ),
+      url(/img/hero-photos/image-yacht-mob-2x.jpg);
+  }
 }
-
-}
-
-
-
 
 .hero-title {
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 1.0;
-    letter-spacing: -0.02em;
-    text-align: center;
-    color: #fbfbfb;
-    margin-bottom: 24px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  margin-bottom: 24px;
 }
 
 .hero-text {
-font-weight: 300;
-font-size: 12px;
-line-height: 1.17;
-text-align: center;
-color: rgba(251, 251, 251, 0.7);
-margin-bottom: 38px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.17;
+  text-align: center;
+  color: rgba(251, 251, 251, 0.7);
+  margin-bottom: 38px;
 }
 
 .hero-btn {
-    width: 141px;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.29;
-letter-spacing: -0.02em;
-color: #fbfbfb;
-border-radius: 15px;
-padding: 14px 32px;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
-background: #1b414b;
-border: none;
-display: block;
-margin: 0 auto;
-
+  width: 141px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  border-radius: 15px;
+  padding: 14px 32px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background: #1b414b;
+  border: none;
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-btn:hover {
-background-color: #fbfbfb;
-color: #1b414b;
-
+  background-color: #fbfbfb;
+  color: #1b414b;
 }
 
- @media screen and (min-width:768px) {
-
-
-.hero-container {
-max-width: 768px;
+@media screen and (min-width: 768px) {
+  .hero-container {
+    max-width: 768px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -82,96 +81,95 @@ max-width: 768px;
     justify-content: center;
     width: 100%;
     height: 100%;
-}
+  }
 
+  .hero {
+    padding-top: 280px;
+    padding-bottom: 282px;
+    box-shadow: none;
+    background-image: linear-gradient(
+        360deg,
+        rgba(14, 24, 35, 0.98) 15.05%,
+        rgba(17, 19, 31, 0.39) 75.3%,
+        rgba(17, 19, 31, 0) 98.27%
+      ),
+      url(/img/hero-photos/image-yacht-tab.jpg);
+  }
 
- .hero {
-
-padding-top: 280px;
-padding-bottom: 282px;
-box-shadow: none;
-background-image:  linear-gradient(360deg, rgba(14, 24, 35, 0.98) 15.05%, rgba(17, 19, 31, 0.39) 75.3%, rgba(17, 19, 31, 0) 98.27%), url(/img/hero-photos/image-yacht-tab.jpg);
- }
-
-@media screen and (-webkit-min-device-pixel-ratio:2),
-(min-resotulion:2dppx),
-(min-resotulion:2dpi) {
-.hero {
-
-background-image: linear-gradient(360deg, rgba(14, 24, 35, 0.98) 15.05%, rgba(17, 19, 31, 0.39) 75.3%, rgba(17, 19, 31, 0) 98.27%), url(/img/hero-photos/image-yacht-tab-2x.jpg);
-
-}
-
-}
-
-
-
-
-.hero-title {
-    
-  max-width: 704px; 
- font-size: 76px;  
- 
-}
-
-.hero-text {
-font-size:16px ;
-line-height: 1.4 ;
- max-width:597px ; 
-width: 100%;
-margin-bottom: 48px;
-}
-
-.hero-btn {
-font-size: 18px;
-line-height: 1.1;
-padding: 16px 40px;
-width: 179px;
-
-}
- 
-.hero-btn:focus {
-background-color: #fbfbfb;
-    color: #1b414b;
-
-}
-
- }
-
-
- @media screen and (min-width: 1280px) {
-
-
-.hero-container {
-max-width: 1280px;
-
-
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resotulion: 2dppx),
+    (min-resotulion: 2dpi) {
+    .hero {
+      background-image: linear-gradient(
+          360deg,
+          rgba(14, 24, 35, 0.98) 15.05%,
+          rgba(17, 19, 31, 0.39) 75.3%,
+          rgba(17, 19, 31, 0) 98.27%
+        ),
+        url(/img/hero-photos/image-yacht-tab-2x.jpg);
     }
+  }
 
-.hero {
-padding-top: 235px;
-padding-bottom: 215px; 
-background-image: linear-gradient(360deg, rgba(14, 24, 35, 0.98) 15.05%, rgba(17, 19, 31, 0.39) 75.3%, rgba(17, 19, 31, 0) 98.27%), url(/img/hero-photos/image-yacht.jpg);
-max-width: 1280px;
+  .hero-title {
+    max-width: 704px;
+    font-size: 76px;
+  }
 
+  .hero-text {
+    font-size: 16px;
+    line-height: 1.4;
+    max-width: 597px;
+    width: 100%;
+    margin-bottom: 48px;
+  }
 
+  .hero-btn {
+    font-size: 18px;
+    line-height: 1.1;
+    padding: 16px 40px;
+    width: 179px;
+  }
+
+  .hero-btn:focus {
+    background-color: #fbfbfb;
+    color: #1b414b;
+  }
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:2),
-(min-resotulion:2dppx),
-(min-resotulion:2dpi) {
- .hero{
-background-image: linear-gradient(360deg, rgba(14, 24, 35, 0.98) 15.05%, rgba(17, 19, 31, 0.39) 75.3%, rgba(17, 19, 31, 0) 98.27%), url(/img/hero-photos/image-yacht-2x.jpg);
+@media screen and (min-width: 1280px) {
+  .hero-container {
+    max-width: 1280px;
+  }
+
+  .hero {
+    padding-top: 235px;
+    padding-bottom: 215px;
+    background-image: linear-gradient(
+        360deg,
+        rgba(14, 24, 35, 0.98) 15.05%,
+        rgba(17, 19, 31, 0.39) 75.3%,
+        rgba(17, 19, 31, 0) 98.27%
+      ),
+      url(/img/hero-photos/image-yacht.jpg);
+    max-width: 1280px;
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resotulion: 2dppx),
+    (min-resotulion: 2dpi) {
+    .hero {
+      background-image: linear-gradient(
+          360deg,
+          rgba(14, 24, 35, 0.98) 15.05%,
+          rgba(17, 19, 31, 0.39) 75.3%,
+          rgba(17, 19, 31, 0) 98.27%
+        ),
+        url(/img/hero-photos/image-yacht-2x.jpg);
+    }
+  }
+
+  .hero-title {
+    max-width: 1001px;
+    font-size: 80px;
+  }
 }
-}
-
-.hero-title {
-max-width: 1001px;
-font-size: 80px;
-
-}
-
-
-
-
- }
